@@ -1,0 +1,9 @@
+# Provide the credentials for cloud platforms
+Azure :
+  key_vault_uri : https://tigersolutions-kv.vault.azure.net/
+  adls_host : solutionsadls.dfs.core.windows.net
+  protocol : abfs
+  adls_data_container : data
+  dir_location : test_adls
+  conn_str_name : SOLUTIONS-ADLS-CONN-STRING
+  export_ext : .csv
